@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(str,input().split()))
+b = sorted(a)
+b.sort(key=len)
+print(*b)
